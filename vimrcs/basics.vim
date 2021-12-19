@@ -116,8 +116,8 @@ syntax enable
 "\ }
 
 set background=dark
+" colorscheme NeoSolarized
 colorscheme PaperColor
-
 " Integrated Terminal
 " turn terminal to normal mode with escape
 tnoremap <Esc> <C-\><C-n>
