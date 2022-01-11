@@ -4,7 +4,7 @@
 let mapleader = "\<space>"
 
 " Remap Esc key to jk
-inoremap jk <Esc>
+inoremap kk <Esc>
 
 " shortcut to save
 nmap <leader>w :w<cr>
@@ -48,7 +48,7 @@ nnoremap tk  :tabnext<CR>
 nnoremap tj  :tabprev<CR>
 nnoremap tl  :tablast<CR>
 nnoremap tt  :tabedit<Space>
-nnoremap tn  :tabnext<Space>
+nnoremap tn  :tabnew<Space>
 nnoremap tm  :tabm<Space>
 nnoremap td  :tabclose<CR>
 

@@ -1,5 +1,5 @@
 " File Search config
-nnoremap <C-p> :FZF<CR>
+"nnoremap <C-p> :FZF<CR>
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
   \ 'ctrl-s': 'split',

@@ -9,6 +9,10 @@ call plug#begin("~/.vim/plugged")
 " Soothing color scheme for your favorite [best] text editor
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'NLKNguyen/papercolor-theme'
+Plug 'navarasu/onedark.nvim'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'ayu-theme/ayu-vim' " or other package manager
+
 
 " =========================================================
 "                     File Explorer
@@ -19,6 +23,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'ryanoasis/vim-devicons'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " =========================================================
 "                     File Searching
@@ -80,13 +85,15 @@ Plug 'roman/golden-ratio'
 " TypeScript and TSX Support
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'chemzqm/vim-jsx-improve'
 
 " Vim Snippet
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'mlaursen/vim-react-snippets'
 
 " Prettier
-"Plug 'prettier/vim-prettier',  { 'tag': '0.2.6', 'do': 'yarn install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html', 'lua', 'php', 'python', 'ruby', 'swift'] }
+Plug 'prettier/vim-prettier',  { 'tag': '0.2.6', 'do': 'yarn install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html', 'lua', 'php', 'python', 'ruby', 'swift'] }
 
 " Editor config
 " A solid language pack for Vim.

@@ -11,15 +11,16 @@ set number                  " show line numbers
 set relativenumber          " show relative line numbers
 
 set nowrap                  " turn off line wrapping
-"set wrap                    " turn on line wrapping
+set wrap                    " turn on line wrapping
 set wrapmargin=8            " wrap lines when coming within n characters from side
 set linebreak               " set soft wrapping
 set showbreak=…             " show ellipsis at breaking
-"set cursorline              " Underlining the current line
+set cursorline              " Underlining the current line
 "set cursorcolumn           " Highlight the current column
+set linespace=7
 
  set autoindent              " automatically set indent of new line
-" set smartindent
+set smartindent
 
 " helper for indent mistake
 set list listchars=tab:»·,trail:·
@@ -43,9 +44,9 @@ set backspace=indent,eol,start
 " Tab control
 set expandtab             " insert tabs rather than spaces for <Tab>
 set smarttab                " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
-set tabstop=2               " the visible width of tabs
-set softtabstop=2           " edit as if the tabs are 4 characters wide
-set shiftwidth=2            " number of spaces to use for indent and unindent
+set tabstop=3               " the visible width of tabs
+set softtabstop=3           " edit as if the tabs are 4 characters wide
+set shiftwidth=3            " number of spaces to use for indent and unindent
 set shiftround              " round indent to a multiple of 'shiftwidth'
 set completeopt+=longest
 
@@ -114,12 +115,26 @@ syntax enable
 "\   },
 "\   'cache_enabled': 1,
 "\ }
-
+let g:onedark_style = 'darker'
+let g:molokai_original = 1
 set background=dark
-" colorscheme NeoSolarized
-colorscheme PaperColor
+"colorscheme NeoSolarized
+"colorscheme PaperColor
 " Integrated Terminal
 " turn terminal to normal mode with escape
+"
+if executable('rg')
+  let g:ctrlp_user_command = 'rg %s --files --hidden --color=never --glob ""'
+endif
+
+set termguicolors     " enable true colors support
+"let ayucolor="light"  " for light version of theme
+let ayucolor="mirage" " for mirage version of theme
+"let ayucolor="dark"   " for dark version of theme
+colorscheme gruvbox
+
+"hi Normal guibg=NONE ctermbg=NONE
+
 tnoremap <Esc> <C-\><C-n>
 " start terminal in insert mode
 au BufEnter * if &buftype == 'terminal' | :startinsert | endif
