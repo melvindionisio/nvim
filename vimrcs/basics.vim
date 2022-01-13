@@ -95,12 +95,6 @@ if (has("termguicolors"))
  set termguicolors
 endif
 syntax enable
-"colorscheme dracula
-"colorscheme gruvbox
-"colorscheme toast
-
-"set background=dark
-"colorscheme palenight
 
 " Clipboard Settings
 "let g:clipboard = {
@@ -115,6 +109,8 @@ syntax enable
 "\   },
 "\   'cache_enabled': 1,
 "\ }
+let g:ctrl_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
 let g:onedark_style = 'darker'
 let g:molokai_original = 1
 set background=dark

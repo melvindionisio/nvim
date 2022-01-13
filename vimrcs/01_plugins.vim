@@ -12,6 +12,7 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'navarasu/onedark.nvim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ayu-theme/ayu-vim' " or other package manager
+Plug 'artanikin/vim-synthwave84'
 
 
 " =========================================================
@@ -164,6 +165,9 @@ Plug 'csscomb/vim-csscomb'
 Plug 'itchyny/vim-gitbranch'
 Plug 'pangloss/vim-javascript'
 Plug 'ap/vim-css-color'
+
+"Plug 'severin-lemaignan/vim-minimap'
+Plug 'wfxr/minimap.vim'
 
 call plug#end()
 

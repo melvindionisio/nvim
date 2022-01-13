@@ -1,9 +1,9 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => ALE (Asynchronous Lint Engine)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" 
+"
 let g:ale_fixers = {
- \ 'javascript': ['eslint']
+ \ 'javascript': ['prettier', 'eslint']
  \ }
 let g:ale_sign_error = '❌'
 let g:ale_sign_warning = '⚠️'
