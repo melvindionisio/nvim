@@ -11,7 +11,8 @@ let g:coc_global_extensions = [
       \ 'coc-prettier',
       \ 'coc-tsserver',
       \ 'coc-snippets',
-      \ 'coc-eslint']
+      \ 'coc-eslint', 
+      \ 'coc-python']
 
 " To go back to previous state use Ctrl+O
 " Remap keys for gotos
@@ -47,7 +48,7 @@ endif
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 " Symbol renaming.
-nmap <leader>rn <Plug>(coc-rename)
+nnoremap <leader>rn <Plug>(coc-rename)
 
 augroup mygroup
   autocmd!

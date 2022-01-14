@@ -1,3 +1,5 @@
+## My Neovim setup based from [here](https://github.com/surajitbasak109/nvim-minimal-config)
+
 ### Linux
 
 - Go to `/.config` directory
@@ -19,8 +21,7 @@
 - Open Power Shell or command prompt
 - Change directory to `~/AppData/Local`
 - clone this repo in that directory
-- it will create `nvim-minimal-config` directory inside it
-- Now rename that directory to `nvim` and you are done
+- it will create `nvim` directory inside it
 - Now run the `nvim` command to open neo vim
 - It might show some warning messages though, so you have to install some plugins using below command in normal mode
 
