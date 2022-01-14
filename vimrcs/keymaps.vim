@@ -27,6 +27,12 @@ endif
 " edit gitconfig
 map <leader>eg :e! ~/.gitconfig<cr>
 
+"search word from directory
+nnoremap <leader>s :CocSearch<space>
+
+"rename file
+nnoremap <leader>rn :Rename<space>
+
 " clear highlighted search
 noremap <leader><cr> :set hlsearch! hlsearch?<cr>
 

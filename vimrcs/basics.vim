@@ -8,7 +8,7 @@ set backupdir=~/.vim-tmp
 set directory=~/.vim-tmp
 
 set number                  " show line numbers
-set relativenumber          " show relative line numbers
+"set relativenumber          " show relative line numbers
 
 set nowrap                  " turn off line wrapping
 set wrap                    " turn on line wrapping
@@ -125,10 +125,10 @@ endif
 
 set termguicolors     " enable true colors support
 "let ayucolor="light"  " for light version of theme
-let ayucolor="mirage" " for mirage version of theme
-"let ayucolor="dark"   " for dark version of theme
+"let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
 colorscheme gruvbox
-
+"colorscheme ayu
 "hi Normal guibg=NONE ctermbg=NONE
 
 tnoremap <Esc> <C-\><C-n>
