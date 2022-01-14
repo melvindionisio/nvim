@@ -1,12 +1,14 @@
-## My Neovim setup based from [here](https://github.com/surajitbasak109/nvim-minimal-config)
+## 🤖 My current Neovim setup
 
-### Linux
+based from [here](https://github.com/surajitbasak109/nvim-minimal-config)
 
-- Go to `/.config` directory
-- clone this repo using `git clone https://github.com/surajitbasak109/nvim-minimal-config`
-- it will create `nvim-minimal-config` directory inside the `/.config` directory
-- Rename the directory to `nvim` so command would be `mv nvim-minimal-config nvim`
-- Now open terminal and run the nvim or vim command
+### Windows
+
+- Open Power Shell or command prompt
+- Change directory to `~/AppData/Local`
+- clone this repo in that directory
+- it will create `nvim` directory inside it
+- Now run the `nvim` command to open neo vim
 - It might show some warning messages though, so you have to install some plugins using below command in normal mode
 
 ```
@@ -16,13 +18,13 @@
 - Wait for some time to install them (those plugins will be installed in `~/.vim` directory )
 - Now restart your nvim or vim program
 
-### Windows
+### Linux
 
-- Open Power Shell or command prompt
-- Change directory to `~/AppData/Local`
-- clone this repo in that directory
-- it will create `nvim` directory inside it
-- Now run the `nvim` command to open neo vim
+- Go to `/.config` directory
+- clone this repo using `git clone https://github.com/surajitbasak109/nvim-minimal-config`
+- it will create `nvim-minimal-config` directory inside the `/.config` directory
+- Rename the directory to `nvim` so command would be `mv nvim-minimal-config nvim`
+- Now open terminal and run the nvim or vim command
 - It might show some warning messages though, so you have to install some plugins using below command in normal mode
 
 ```
