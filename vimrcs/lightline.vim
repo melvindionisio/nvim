@@ -6,7 +6,7 @@ let g:lightline = {
             \ 'active': {
             \   'left': [ ['mode', 'paste', 'fugitive'],
             \             ['gitbranch', 'readonly', 'modified', 'absolutepath'] ],
-            \   'right': [ ['cocstatus', 'currentfunction', 'lineinfo' ], ['percent'] ],
+            \   'right': [ ['cocstatus', 'currentfunction', 'lineinfo'], ['percent'], ['filetype']]
             \ },
             \ 'component_function': {
             \   'absolutepath': 'FilenameForLightline',
@@ -24,6 +24,6 @@ let g:lightline = {
             \   'modified': '(&filetype!="help"&&(&modified||!&modifiable))',
             \   'fugitive': '(exists("*fugitive#head") && ""!=fugitive#head())'
             \ },
-            \ 'separator': { 'left': ' ', 'right': ' ' },
+            \ 'separator': { 'left': ' ', 'right': '|' },
             \ 'subseparator': { 'left': ' ', 'right': ' ' }
             \ }

@@ -11,8 +11,14 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'navarasu/onedark.nvim'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'ayu-theme/ayu-vim' " or other package manager
+Plug 'ayu-theme/ayu-vim'
 Plug 'artanikin/vim-synthwave84'
+Plug 'srcery-colors/srcery-vim'
+Plug 'wadackel/vim-dogrun'
+Plug 'sainnhe/sonokai'
+Plug 'ghifarit53/tokyonight-vim'
+Plug 'mangeshrex/uwu.vim'
+Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
 
 
 " =========================================================
@@ -82,6 +88,7 @@ Plug 'jlanzarotta/bufexplorer'
 " Automatic resizing of Vim windows to the golden ratio
 Plug 'roman/golden-ratio'
 
+Plug 'davidhalter/jedi-vim'
 
 " TypeScript and TSX Support
 Plug 'leafgarland/typescript-vim'
@@ -116,12 +123,11 @@ Plug 'jwalton512/vim-blade'
 " Phpactor
 Plug 'phpactor/phpactor', {'for': 'php', 'branch': 'master', 'do': 'composer install --no-dev -o'}
 
-Plug 'rodrigore/coc-tailwind-intellisense', { 'do': 'npm install' }
 " PHP Documentor for vim
 Plug 'tobyS/pdv'
 
-" Multiple Cursor
-Plug 'terryma/vim-multiple-cursors'
+"Multiple Cursors
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " Lightline
 Plug 'itchyny/lightline.vim'
@@ -153,6 +159,7 @@ Plug 'jiangmiao/auto-pairs'
 
 " Tailwind CSS
 Plug 'iamcco/coc-tailwindcss',  {'do': 'yarn install --frozen-lockfile && yarn run build'}
+Plug 'rodrigore/coc-tailwind-intellisense', { 'do': 'npm install' }
 
 "Easy Motion
 "Vim motions on speed!
@@ -163,7 +170,6 @@ Plug 'easymotion/vim-easymotion'
 Plug 'bkad/CamelCaseMotion'
 Plug 'wellle/targets.vim'
 Plug 'alvan/vim-closetag'
-Plug 'tpope/vim-commentary'
 Plug 'csscomb/vim-csscomb'
 Plug 'itchyny/vim-gitbranch'
 Plug 'pangloss/vim-javascript'

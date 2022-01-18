@@ -8,7 +8,7 @@ set backupdir=~/.vim-tmp
 set directory=~/.vim-tmp
 
 set number                  " show line numbers
-"set relativenumber          " show relative line numbers
+set relativenumber          " show relative line numbers
 
 set nowrap                  " turn off line wrapping
 set wrap                    " turn on line wrapping
@@ -90,10 +90,6 @@ if has('mouse')
     " set ttymouse=xterm2
 endif
 
-" Configure Theme
-if (has("termguicolors"))
- set termguicolors
-endif
 syntax enable
 
 " Clipboard Settings
@@ -111,24 +107,14 @@ syntax enable
 "\ }
 let g:ctrl_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 
-let g:onedark_style = 'darker'
-let g:molokai_original = 1
-set background=dark
-"colorscheme NeoSolarized
-"colorscheme PaperColor
-" Integrated Terminal
-" turn terminal to normal mode with escape
 "
 if executable('rg')
   let g:ctrlp_user_command = 'rg %s --files --hidden --color=never --glob ""'
 endif
 
-set termguicolors     " enable true colors support
-"let ayucolor="light"  " for light version of theme
-"let ayucolor="mirage" " for mirage version of theme
-let ayucolor="dark"   " for dark version of theme
-colorscheme gruvbox
-"colorscheme ayu
+
+
+
 "hi Normal guibg=NONE ctermbg=NONE
 
 tnoremap <Esc> <C-\><C-n>
