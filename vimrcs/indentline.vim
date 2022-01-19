@@ -14,7 +14,7 @@
 
 "let g:indentLine_setColors = 0
 "let g:indentLine_char_list = ['|', '¦', '┆', '┊']
-let g:indentLine_char_list = ['┊']
+"let g:indentLine_char_list = ['|']
 "let g:vim_json_syntax_conceal = 0
 "autocmd Filetype json let g:indentLine_setConceal = 0
 

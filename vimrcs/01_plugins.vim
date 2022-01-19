@@ -130,7 +130,9 @@ Plug 'tobyS/pdv'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
 " Lightline
-Plug 'itchyny/lightline.vim'
+"Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'airblade/vim-gitgutter'
 
