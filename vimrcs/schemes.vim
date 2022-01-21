@@ -17,13 +17,13 @@ let g:tokyonight_style = 'night' " available: night, storm
 let g:tokyonight_enable_italic = 1
 
 
-let g:gruvbox_contrast_dark = 'hard' " medium, soft
+let g:gruvbox_contrast_dark = 'medium' "hard, medium, soft
 
 "let g:lightline = {
   "\ 'colorscheme': 'dogrun',
   "\ }
 
-let ayucolor="dark"   " light, mirage
+let ayucolor="dark"   " light, mirage, dark
 "
 "let g:lightline = {'colorscheme': 'tokyonight'}
 let g:tokyonight_style = "night"
@@ -43,4 +43,4 @@ let g:gruvbox_baby_keyword_style = "italic"
 let g:srcery_italic = 1
 "let g:lightline = {'colorscheme': 'srcery_drk'}
 
-colorscheme srcery
+colorscheme gruvbox
