@@ -44,3 +44,5 @@ let g:srcery_italic = 1
 "let g:lightline = {'colorscheme': 'srcery_drk'}
 
 colorscheme gruvbox
+
+hi Normal guibg=NONE ctermbg=NONE

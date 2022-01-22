@@ -1,6 +1,6 @@
 ## 🤖 My current Neovim setup
 
-based from [here](https://github.com/surajitbasak109/nvim-minimal-config)
+\*based from [here](https://github.com/surajitbasak109/nvim-minimal-config)
 
 ### Windows
 
@@ -43,4 +43,4 @@ based from [here](https://github.com/surajitbasak109/nvim-minimal-config)
 - Open all opened buffers using leader-o
 - File manager for current project on right side (NerdTree)
 - Easy comment using `++` key combination
-- Faster file opening with `ctrl-p` like VSCode (requires silverline-ag)
+- Faster file opening with `ctrl-p` like VSCode (faster with Watchman)
