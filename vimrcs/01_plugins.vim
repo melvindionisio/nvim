@@ -20,6 +20,10 @@ Plug 'ghifarit53/tokyonight-vim'
 Plug 'mangeshrex/uwu.vim'
 Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
 
+Plug 'Xuyuanp/scrollbar.nvim'
+Plug 'enricobacis/vim-airline-clock'
+"Plug 'voldikss/vim-floaterm'
+
 
 " =========================================================
 "                     File Explorer
