@@ -45,4 +45,4 @@ let g:srcery_italic = 1
 
 colorscheme gruvbox
 
-"hi Normal guibg=NONE ctermbg=NONE
+hi Normal guibg=NONE ctermbg=NONE
