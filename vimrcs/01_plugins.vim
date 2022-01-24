@@ -22,6 +22,7 @@ Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
 
 Plug 'Xuyuanp/scrollbar.nvim'
 Plug 'enricobacis/vim-airline-clock'
+Plug 'morhetz/gruvbox'
 "Plug 'voldikss/vim-floaterm'
 
 
