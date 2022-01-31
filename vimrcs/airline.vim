@@ -35,9 +35,9 @@ let g:airline_symbols.readonly = ''
 let g:airline_symbols.linenr = ' '
 "let g:airline_symbols.linenr = ' ☰ '
 "let g:airline_symbols.maxlinenr = '  '
-let g:airline_symbols.maxlinenr = ' '
+let g:airline_symbols.maxlinenr = ''
 let g:airline_symbols.dirty=' ⚡'
-let g:airline_symbols.colnr = ' :'
+let g:airline_symbols.colnr = ':'
 
 " If you only see boxes here it may be because your system doesn't have
 " the correct fonts. Try it in vim first and if that fails see the help
