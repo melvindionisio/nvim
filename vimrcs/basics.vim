@@ -7,6 +7,9 @@ set textwidth=120
 set backupdir=~/.vim-tmp
 set directory=~/.vim-tmp
 
+syntax on
+"set term=xterm-256color
+
 set number                  " show line numbers
 "set relativenumber          " show relative line numbers
 
@@ -90,7 +93,6 @@ if has('mouse')
     " set ttymouse=xterm2
 endif
 
-syntax enable
 
 " Clipboard Settings
 "let g:clipboard = {
@@ -111,9 +113,6 @@ let g:ctrl_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclud
 if executable('rg')
   let g:ctrlp_user_command = 'rg %s --files --hidden --color=never --glob ""'
 endif
-
-
-
 
 tnoremap <Esc> <C-\><C-n>
 " start terminal in insert mode

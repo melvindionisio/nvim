@@ -71,7 +71,7 @@ vnoremap . :normal .<cr>
 "map <silent> <C-j> :call functions#WinMove('j')<cr>
 "map <silent> <C-k> :call functions#WinMove('k')<cr>
 "map <silent> <C-l> :call functions#WinMove('l')<cr>
-map <silent> <C-i> :Buffers<cr>
+"map <silent> <C-i> :Buffers<cr>
 
 map <silent> <C-d> <S-y>p
 
@@ -233,3 +233,23 @@ vnoremap <C-j> :m '>+1<CR>gv=gv
 
 map <silent> <S-Left> <C-o><Plug>CamelCaseMotion_b
 imap <silent> <S-Right> <C-o><Plug>CamelCaseMotion_w
+
+
+vnoremap > >gv
+vnoremap < <gv
+
+nnoremap <Tab> >>_
+nnoremap <S-Tab> <<_
+inoremap <S-Tab> <C-D>
+vnoremap <Tab> >gv
+vnoremap <S-Tab> <gv
+
+"xnoremap <Tab> >gV
+"xnoremap <S-Tab> <gV
+
+vnoremap <Tab> >
+vnoremap <S-Tab> <
+
+vnoremap <Tab> >gV
+vnoremap <S-Tab> <gV
+

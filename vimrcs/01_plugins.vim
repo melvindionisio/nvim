@@ -10,6 +10,7 @@ call plug#begin("~/.vim/plugged")
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'navarasu/onedark.nvim'
+"Plug 'joshdick/onedark.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ayu-theme/ayu-vim'
 Plug 'artanikin/vim-synthwave84'
@@ -23,7 +24,6 @@ Plug 'luisiacc/gruvbox-baby', {'branch': 'main'}
 Plug 'Xuyuanp/scrollbar.nvim'
 Plug 'enricobacis/vim-airline-clock'
 Plug 'morhetz/gruvbox'
-"Plug 'voldikss/vim-floaterm'
 
 
 " =========================================================
@@ -99,6 +99,8 @@ Plug 'davidhalter/jedi-vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'chemzqm/vim-jsx-improve'
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
 
 " Vim Snippet
 Plug 'SirVer/ultisnips'
@@ -182,9 +184,8 @@ Plug 'itchyny/vim-gitbranch'
 Plug 'pangloss/vim-javascript'
 Plug 'ap/vim-css-color'
 
-"Plug 'severin-lemaignan/vim-minimap'
-Plug 'wfxr/minimap.vim'
 
+Plug 'wfxr/minimap.vim'
 call plug#end()
 
 " Automatically install missing plugins on startup

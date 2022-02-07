@@ -4,10 +4,29 @@ if (has("termguicolors"))
 endif
 
 set termguicolors     " enable true colors support
+set t_Co=256
+set t_AB=^[[48;5;%dm
+set t_AF=^[[38;5;%dm
 set background=dark
 
+
 let g:onedark_style = 'darker'
-let g:molokai_original = 1
+let g:onedark_termcolors=256
+
+
+"dark, darker, cool, deep, warm, warmer, light
+let g:onedark_config = {
+  \ 'style': 'deep',
+  \ 'toggle_style_key': '<leader>ts',
+  \ 'ending_tildes': v:true,
+  \ 'diagnostics': {
+    \ 'darker': v:false,
+    \ 'background': v:false,
+  \ },
+\ }
+
+let g:molokai_original = 0
+let g:rehash256 = 1
 
 let g:sonokai_style = 'andromeda' "atlantis
 let g:sonokai_enable_italic = 1
@@ -43,6 +62,6 @@ let g:gruvbox_baby_keyword_style = "italic"
 let g:srcery_italic = 1
 "let g:lightline = {'colorscheme': 'srcery_drk'}
 
-colorscheme gruvbox
+colorscheme gruvbox 
 
-hi Normal guibg=NONE ctermbg=NONE
+"hi Normal guibg=NONE ctermbg=NONE
