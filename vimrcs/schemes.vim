@@ -42,7 +42,7 @@ let g:gruvbox_contrast_dark = 'medium' "hard, medium, soft
   "\ 'colorscheme': 'dogrun',
   "\ }
 
-let ayucolor="dark"   " light, mirage, dark
+let ayucolor="mirage"   " light, mirage, dark
 "
 "let g:lightline = {'colorscheme': 'tokyonight'}
 let g:tokyonight_style = "night"
@@ -62,6 +62,6 @@ let g:gruvbox_baby_keyword_style = "italic"
 let g:srcery_italic = 1
 "let g:lightline = {'colorscheme': 'srcery_drk'}
 
-colorscheme gruvbox 
+colorscheme NeoSolarized
 
-"hi Normal guibg=NONE ctermbg=NONE
+hi Normal guibg=NONE ctermbg=NONE

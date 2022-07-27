@@ -1,0 +1,3 @@
+let l:bm_file_version = 1
+let l:bm_sessions = {'default': {'C:\Users\Melvin Dionisio\AppData\Local\nvim\vimrcs\bookmark.vim': [{'sign_idx': 9500, 'line_nr': 2, 'content': 'highlight BookmarkLine ctermbg=194 ctermfg=NONE'},],}}
+let l:bm_current_session = 'default'

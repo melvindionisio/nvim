@@ -25,7 +25,7 @@ Plug 'Xuyuanp/scrollbar.nvim'
 Plug 'enricobacis/vim-airline-clock'
 Plug 'morhetz/gruvbox'
 
-
+Plug 'neoclide/coc-java'
 " =========================================================
 "                     File Explorer
 " =========================================================
@@ -51,7 +51,7 @@ Plug 'rking/ag.vim'
 " Conquer of Completion (CoC)
 " Intellisense engine for Vim8 & Neovim, full language server protocol support as VSCode
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-tsserver', 'coc-cssmodules', 'coc-eslint', 'coc-explorer', 'coc-phpactor', 'coc-phpls', 'coc-stylelint', 'coc-snippets', 'coc-sql', 'coc-tailwindcss', 'coc-pairs', 'coc-yank', 'coc-prettier']
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-tsserver', 'coc-cssmodules', 'coc-eslint', 'coc-explorer', 'coc-phpactor', 'coc-phpls', 'coc-stylelint', 'coc-snippets', 'coc-sql', 'coc-tailwindcss', 'coc-pairs', 'coc-yank', 'coc-prettier', 'coc-java']
 
 " ALE
 " Check syntax in Vim asynchronously and fix files,
@@ -183,7 +183,6 @@ Plug 'csscomb/vim-csscomb'
 Plug 'itchyny/vim-gitbranch'
 Plug 'pangloss/vim-javascript'
 Plug 'ap/vim-css-color'
-
 
 Plug 'wfxr/minimap.vim'
 call plug#end()

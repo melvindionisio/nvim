@@ -12,7 +12,8 @@ let g:coc_global_extensions = [
       \ 'coc-tsserver',
       \ 'coc-snippets',
       \ 'coc-eslint', 
-      \ 'coc-pyright']
+      \ 'coc-pyright',
+      \ 'coc-java']
 
 " To go back to previous state use Ctrl+O
 " Remap keys for gotos
